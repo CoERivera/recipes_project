@@ -1,0 +1,50 @@
+body {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.entry {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #33393e;
+    color: white;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.left-half, .right-half {
+    width: 700px;
+    padding: 20px;
+}
+
+.right-half{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.right-half .form-control{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+textarea {
+    resize:none;
+}
+
+.btn-outline-primary{
+    width: 150px;
+    align-self: flex-end;
+}
+
+.error {
+    color: red;
+}

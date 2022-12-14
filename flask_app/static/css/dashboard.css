@@ -1,0 +1,11 @@
+body {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.table {
+    background-color: #33393e;
+    color:white;
+    margin: 0 auto;
+}
